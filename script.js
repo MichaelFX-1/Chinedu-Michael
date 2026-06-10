@@ -102,8 +102,8 @@ const experience = [
 ];
 
 const downloads = [
-  { title:"Frontend Developer Portfolio", description:"Full portfolio document showcasing projects, deployed websites, and technical work samples.", icon:"📁", file:"downloads/Chinedu_Michael_Frontend_Portfolio.pdf", color:"hsl(210 70% 55% / .1)", border:"hsl(210 70% 55% / .3)" },
-  { title:"Frontend Developer CV", description:"HTML, CSS, JavaScript and responsive web development experience at a glance.", icon:"💻", file:"downloads/Chinedu_Michael_Frontend_CV.pdf", color:"hsl(45 90% 60% / .2)", border:"hsl(45 90% 60% / .4)" },
+  { title:"Frontend Developer Portfolio", description:"Full portfolio document showcasing projects, deployed websites, and technical work samples.", icon:"📁", file: "/chinedu-michael-portfolio/downloads/Chinedu_Michael_Frontend_Portfolio.pdf", color:"hsl(210 70% 55% / .1)", border:"hsl(210 70% 55% / .3)" },
+  { title:"Frontend Developer CV", description:"HTML, CSS, JavaScript and responsive web development experience at a glance.", icon:"💻", file:"/chinedu-michael-portfolio/downloads/Chinedu_Michael_Frontend_CV.pdf" , color:"hsl(45 90% 60% / .2)", border:"hsl(45 90% 60% / .4)" },
   { title:"General CV", description:"Complete professional background covering all skills, projects, and engagements.", icon:"📄", file:"/chinedu-michael-portfolio/downloads/Chinedu_Michael_Frontend_CV.pdf", color:"hsl(45 80% 92%)", border:"hsl(45 80% 92%)" },
   { title:"Project Highlights", description:"Curated snapshot of deployed projects with live links and GitHub repositories.", icon:"⚡", file:"downloads/Frontend_Developer_Portfolio.pdf", color:"hsl(210 70% 55% / .1)", border:"hsl(210 70% 55% / .3)" },
 ];

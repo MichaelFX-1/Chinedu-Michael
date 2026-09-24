@@ -136,23 +136,62 @@ const platformTools = [
 
 /* Orbit + bar visualization data (NEW — complements the existing tool grids) */
 const ecosystem = [
-  { code:"HT", name:"HTML5",      pct:96, tone:"#ef4444" },
-  { code:"CS", name:"CSS3",       pct:94, tone:"#3b82f6" },
-  { code:"Ja", name:"JavaScript", pct:92, tone:"#eab308" },
-  { code:"Gi", name:"Git",        pct:90, tone:"#f97316" },
-  { code:"Gi", name:"GitHub",     pct:92, tone:"#0f172a" },
-  { code:"Ne", name:"Netlify",    pct:88, tone:"#10b981" },
-  { code:"VS", name:"VS Code",    pct:95, tone:"#3b82f6" },
-  { code:"Fi", name:"Figma",      pct:86, tone:"#f97316" },
+  { code: "HT", name: "HTML5", pct: 95, tone: "#ef4444" },
+  { code: "CS", name: "CSS3", pct: 94, tone: "#3b82f6" },
+  { code: "JS", name: "JavaScript (ES6+)", pct: 92, tone: "#eab308" },
+  { code: "TS", name: "TypeScript", pct: 82, tone: "#3178c6" },
+  { code: "Rx", name: "React", pct: 82, tone: "#61dafb" },
+  { code: "TW", name: "Tailwind CSS", pct: 84, tone: "#06b6d4" },
+  { code: "RT", name: "Redux Toolkit", pct: 76, tone: "#764abc" },
+  { code: "AP", name: "REST API Integration", pct: 82, tone: "#10b981" },
+  { code: "Gi", name: "Git / GitHub", pct: 90, tone: "#f97316" },
+  { code: "VD", name: "Vercel / Netlify", pct: 88, tone: "#0f172a" },
+  { code: "CD", name: "Chrome DevTools", pct: 88, tone: "#4285f4" },
+  { code: "Fg", name: "Figma", pct: 84, tone: "#f24e1e" }
 ];
 
 const services = [
-  { icon:"💻", title:"Frontend Development", description:"Production-ready websites built with HTML5, CSS3, and JavaScript. Clean, semantic code that performs across every device.", color:"hsl(210 70% 55% / .15)" },
-  { icon:"📱", title:"Responsive Web Design", description:"Mobile-first interfaces that look and feel right on phones, tablets, and desktops — with pixel-level attention to detail.", color:"hsl(45 90% 60% / .4)" },
-  { icon:"🛒", title:"E-commerce Interfaces", description:"Luxury and conversion-focused storefronts — product showcases, brand-driven layouts, and shopping flows that sell.", color:"hsl(210 30% 95%)" },
-  { icon:"📄", title:"Portfolio Systems", description:"Modular, template-driven portfolio infrastructure for developers, creatives, and professionals who want to stand out.", color:"hsl(210 70% 55% / .15)" },
-  { icon:"🚀", title:"Static Site Deployment", description:"End-to-end deployment workflows with Netlify and GitHub Pages — from local build to live URL in minutes.", color:"hsl(45 90% 60% / .4)" },
-  { icon:"🧱", title:"Landing Page Engineering", description:"Conversion-optimized landing pages with strong visual hierarchy, clear CTAs, and fast load times.", color:"hsl(210 30% 95%)" },
+  {
+    icon: "💻",
+    title: "Frontend Development",
+    description: "Build responsive, accessible, and production-ready websites and web applications using HTML5, CSS3, JavaScript, TypeScript, React, and modern frontend development practices.",
+    color: "hsl(210 70% 55% / .15)"
+  },
+  
+  {
+    icon: "📱",
+    title: "Responsive Web Development",
+    description: "Develop mobile-first interfaces that provide consistent, usable experiences across phones, tablets, and desktops with responsive layouts, Flexbox, CSS Grid, and cross-browser compatibility.",
+    color: "hsl(45 90% 60% / .4)"
+  },
+  
+  {
+    icon: "🛒",
+    title: "E-commerce Interfaces",
+    description: "Create professional product and storefront experiences that make product discovery, navigation, and customer interaction clear, intuitive, and effective across devices.",
+    color: "hsl(210 30% 95%)"
+  },
+  
+  {
+    icon: "🌐",
+    title: "Business Websites",
+    description: "Build professional websites that translate business requirements into clear digital experiences, helping companies communicate their value, showcase services, and connect with customers.",
+    color: "hsl(210 70% 55% / .15)"
+  },
+  
+  {
+    icon: "🔌",
+    title: "API & Frontend Integration",
+    description: "Connect frontend interfaces with REST APIs and external services to create dynamic web experiences, handle application data, and support real-world product requirements.",
+    color: "hsl(45 90% 60% / .4)"
+  },
+  
+  {
+    icon: "🧱",
+    title: "UI Implementation & Optimization",
+    description: "Turn Figma designs, product requirements, and existing interfaces into responsive frontend experiences while improving usability, accessibility, consistency, debugging, and performance.",
+    color: "hsl(210 30% 95%)"
+  }
 ];
 
 /* Experience now uses the same project-card template (cover + code snippet)

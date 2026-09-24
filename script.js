@@ -59,12 +59,12 @@ const skillCategories = [
     title: "Core Frontend",
     icon: "⚡",
     skills: [
-      ["HTML5 (Semantic, SEO-ready)", 95],
-      ["CSS3 (Responsive, Flexbox, Grid)", 94],
-      ["JavaScript ES6+", 92],
-      ["TypeScript", 82],
-      ["React", 82],
-      ["DOM APIs & Interaction", 88]
+      ["HTML5 (Semantic, SEO-ready)", 100],
+      ["CSS3 (Responsive, Flexbox, Grid)", 100],
+      ["JavaScript ES6+", 100],
+      ["TypeScript", 100],
+      ["React", 100],
+      ["DOM APIs & Interaction", 100]
     ]
   },
   
@@ -72,40 +72,40 @@ const skillCategories = [
     title: "UI & Application Development",
     icon: "🎨",
     skills: [
-      ["Responsive UI Development", 94],
-      ["Component-Based UI", 88],
-      ["Tailwind CSS", 84],
-      ["CSS Grid & Flexbox", 94],
-      ["Accessibility", 82],
-      ["Figma / UI Implementation", 84]
+      ["Responsive UI Development", 100],
+      ["Component-Based UI", 100],
+      ["Tailwind CSS", 100],
+      ["CSS Grid & Flexbox", 100],
+      ["Accessibility", 100],
+      ["Figma / UI Implementation", 100]
     ]
   },
   
   {
-    title: "Engineering & Workflow",
-    icon: "🛠️",
-    skills: [
-      ["REST API Integration", 82],
-      ["State Management", 78],
-      ["Git & GitHub", 90],
-      ["Chrome DevTools", 88],
-      ["Frontend Debugging", 90],
-      ["Frontend Testing", 75]
-    ]
-  },
-  
-  {
-    title: "Deployment & Web Workflow",
-    icon: "🚀",
-    skills: [
-      ["Netlify Deployment", 90],
-      ["Cross-Browser Compatibility", 88],
-      ["Performance Optimization", 78],
-      ["Semantic Web Development", 92],
-      ["Responsive Design", 94],
-      ["Modern Development Workflow", 85]
-    ]
-  }
+  title: "Engineering & Workflow",
+  icon: "🛠️",
+  skills: [
+    ["REST API Integration", 100],
+    ["State Management", 100],
+    ["Git & GitHub", 100],
+    ["Chrome DevTools", 100],
+    ["Frontend Debugging", 100],
+    ["Frontend Testing", 100]
+  ]
+},
+
+{
+  title: "Deployment & Web Workflow",
+  icon: "🚀",
+  skills: [
+    ["Netlify Deployment", 100],
+    ["Cross-Browser Compatibility", 100],
+    ["Performance Optimization", 100],
+    ["Semantic Web Development", 100],
+    ["Responsive Design", 100],
+    ["Modern Development Workflow", 100]
+  ]
+}
 ];
 
 const devTools = [
@@ -136,18 +136,18 @@ const platformTools = [
 
 /* Orbit + bar visualization data (NEW — complements the existing tool grids) */
 const ecosystem = [
-  { code: "HT", name: "HTML5", pct: 95, tone: "#ef4444" },
-  { code: "CS", name: "CSS3", pct: 94, tone: "#3b82f6" },
-  { code: "JS", name: "JavaScript (ES6+)", pct: 92, tone: "#eab308" },
-  { code: "TS", name: "TypeScript", pct: 82, tone: "#3178c6" },
-  { code: "Rx", name: "React", pct: 82, tone: "#61dafb" },
-  { code: "TW", name: "Tailwind CSS", pct: 84, tone: "#06b6d4" },
-  { code: "RT", name: "Redux Toolkit", pct: 76, tone: "#764abc" },
-  { code: "AP", name: "REST API Integration", pct: 82, tone: "#10b981" },
-  { code: "Gi", name: "Git / GitHub", pct: 90, tone: "#f97316" },
-  { code: "VD", name: "Vercel / Netlify", pct: 88, tone: "#0f172a" },
-  { code: "CD", name: "Chrome DevTools", pct: 88, tone: "#4285f4" },
-  { code: "Fg", name: "Figma", pct: 84, tone: "#f24e1e" }
+  { code: "HT", name: "HTML5", pct: 100, tone: "#ef4444" },
+  { code: "CS", name: "CSS3", pct: 100, tone: "#3b82f6" },
+  { code: "JS", name: "JavaScript (ES6+)", pct: 100, tone: "#eab308" },
+  { code: "TS", name: "TypeScript", pct: 100, tone: "#3178c6" },
+  { code: "Rx", name: "React", pct: 100, tone: "#61dafb" },
+  { code: "TW", name: "Tailwind CSS", pct: 100, tone: "#06b6d4" },
+  { code: "RT", name: "Redux Toolkit", pct: 100, tone: "#764abc" },
+  { code: "AP", name: "REST API Integration", pct: 100, tone: "#10b981" },
+  { code: "Gi", name: "Git / GitHub", pct: 100, tone: "#f97316" },
+  { code: "VD", name: "Vercel / Netlify", pct: 100, tone: "#0f172a" },
+  { code: "CD", name: "Chrome DevTools", pct: 100, tone: "#4285f4" },
+  { code: "Fg", name: "Figma", pct: 100, tone: "#f24e1e" }
 ];
 
 const services = [

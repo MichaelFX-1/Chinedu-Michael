@@ -3,57 +3,136 @@
    const product = build({ name: "..." }); snippet) so the card preview
    matches the template exactly. GitHub + Live links are preserved. */
 const devProjects = [
-  { title:"Lydia Luxury Apparel", subtitle:"Luxury fashion redefined", category:"E.COMMERCE", year:"2025",
-    codeName:"lydia", cover:"amber",
-    description:"A high-end fashion storefront with editorial product pages, polished interactions, and a conversion-focused checkout flow.",
-    link:"https://lydiaapparel.netlify.app/", github:"https://github.com/MichaelFX-1/Lydia-Apparel",
-    tags:["HTML5","CSS3","JavaScript","Responsive"] },
-  { title:"POW — Portfolio Template 1", subtitle:"Proof of Work template system", category:"PORTFOLIO SYSTEM", year:"2025",
-    codeName:"pow1", cover:"blue",
-    description:"A production-ready portfolio template for developers, with reusable section primitives and a single-source content model.",
-    link:"https://portfoliotemplate0.netlify.app/", github:"https://github.com/MichaelFX-1/Portfolio-Template-1",
-    tags:["HTML5","CSS3","JavaScript"] },
-  { title:"Chinedu Quiz Game", subtitle:"Interactive learning, gamified", category:"INTERACTIVE WEB APP", year:"2024",
-    codeName:"quiz", cover:"blue",
-    description:"A timed, scored quiz engine with category selection, animated transitions, and a results dashboard.",
-    link:"https://chineduquizgame.netlify.app/", github:"https://github.com/MichaelFX-1/Quiz-Game",
-    tags:["JavaScript","Web APIs","CSS Animations"] },
-  { title:"Kulvix Project", subtitle:"Web development & tech services", category:"BUSINESS TEMPLATE", year:"2024",
-    codeName:"kulvix", cover:"dark",
-    description:"Marketing and services site for a development studio with a service catalog and contact funnel.",
-    link:"https://kulvixproject.netlify.app/", github:"https://github.com/MichaelFX-1/Project",
-    tags:["HTML5","CSS3","JavaScript"] },
-  { title:"Personal Portfolio", subtitle:"Professional identity hub", category:"PORTFOLIO", year:"2024",
-    codeName:"personal", cover:"blue",
-    description:"The original portfolio site — the foundation this dashboard expands on.",
-    link:"https://chinedumichael.netlify.app/", github:"https://github.com/MichaelFX-1/Chinedu-Michael-Portfolio",
-    tags:["HTML5","CSS3","JavaScript"] },
-  { title:"Yhudee Collection", subtitle:"Timeless elegance, luxury redefined", category:"E.COMMERCE / LUXURY", year:"2025",
-    codeName:"yhudee", cover:"amber",
-    description:"Boutique luxury accessories storefront with cinematic hero, product reveal animations, and minimal navigation.",
-    link:"https://yhudeecollection.netlify.app/", github:"https://github.com/MichaelFX-1/Yhudee-Empire",
-    tags:["HTML5","CSS3","JavaScript"] },
-  { title:"Sage Arts", subtitle:"Business services & creative studio", category:"BUSINESS SERVICES", year:"2024",
-    codeName:"sage", cover:"dark",
-    description:"A poised art-business presence with a portfolio gallery, services overview, and booking inquiry flow.",
-    link:"https://sageartcollection.netlify.app/", github:"https://github.com/MichaelFX-1/Sage-Arts",
-    tags:["HTML5","CSS3","JavaScript"] },
-  { title:"POW — Portfolio Template 2", subtitle:"Next-gen portfolio system", category:"PORTFOLIO SYSTEM", year:"2025",
-    codeName:"pow2", cover:"blue",
-    description:"An evolution of the POW template: stronger typography system, motion primitives, and content modeling.",
-    link:"https://github.com/MichaelFX-1/Portfolio-Template-2", github:"https://github.com/MichaelFX-1/Portfolio-Template-2",
-    tags:["HTML5","CSS3","JavaScript"] },
+
+{ title:"Lydia Luxury Apparel", subtitle:"Luxury fashion redefined", category:"E.COMMERCE", year:"2026",
+codeName:"lydia", cover:"amber",
+description:"A high-end fashion storefront with editorial product pages, polished interactions, and a conversion-focused checkout flow.",
+link:"https://lydiaapparel.netlify.app/", github:"https://github.com/MichaelFX-1/Lydia-Apparel",
+tags:["HTML5","CSS3","JavaScript","Responsive UI"] },
+
+{ title:"POW — Portfolio Template 1", subtitle:"Proof of Work template system", category:"PORTFOLIO SYSTEM", year:"2026",
+codeName:"pow1", cover:"blue",
+description:"A production-ready portfolio template for developers, with reusable section primitives and a single-source content model.",
+link:"https://portfoliotemplate0.netlify.app/", github:"https://github.com/MichaelFX-1/Portfolio-Template-1",
+tags:["HTML5","CSS3","TypeScript","Responsive UI"] },
+
+{ title:"Chinedu Quiz Game", subtitle:"Interactive learning, gamified", category:"INTERACTIVE WEB APP", year:"2026",
+codeName:"quiz", cover:"blue",
+description:"A timed, scored quiz engine with category selection, animated transitions, and a results dashboard.",
+link:"https://chineduquizgame.netlify.app/", github:"https://github.com/MichaelFX-1/Quiz-Game",
+tags:["JavaScript","Web APIs","CSS Animations"] },
+
+{ title:"Kulvix Project", subtitle:"Web development & tech services", category:"BUSINESS TEMPLATE", year:"2025",
+codeName:"kulvix", cover:"dark",
+description:"Marketing and services site for a development studio with a service catalog and contact funnel.",
+link:"https://kulvixproject.netlify.app/", github:"https://github.com/MichaelFX-1/Project",
+tags:["HTML5","CSS3","JavaScript","Responsive UI"] },
+
+{ title:"Personal Portfolio", subtitle:"Professional identity hub", category:"PORTFOLIO", year:"2026",
+codeName:"personal", cover:"blue",
+description:"The original portfolio site — the foundation this dashboard expands on.",
+link:"https://chinedumichael.netlify.app/", github:"https://github.com/MichaelFX-1/Chinedu-Michael-Portfolio",
+tags:["HTML5","CSS3","JavaScript"] },
+
+{ title:"Yhudee Collection", subtitle:"Timeless elegance, luxury redefined", category:"E.COMMERCE / LUXURY", year:"2026",
+codeName:"yhudee", cover:"amber",
+description:"Boutique luxury accessories storefront with cinematic hero, product reveal animations, and minimal navigation.",
+link:"https://yhudeecollection.netlify.app/", github:"https://github.com/MichaelFX-1/Yhudee-Empire",
+tags:["HTML5","CSS3","JavaScript"] },
+
+{ title:"Sage Arts", subtitle:"Business services & creative studio", category:"BUSINESS SERVICES", year:"2026",
+codeName:"sage", cover:"dark",
+description:"A poised art-business presence with a portfolio gallery, services overview, and booking inquiry flow.",
+link:"https://sageartcollection.netlify.app/", github:"https://github.com/MichaelFX-1/Sage-Arts",
+tags:["HTML5","CSS3","JavaScript","Responsive UI"] },
+
+{ title:"POW — Portfolio Template 2", subtitle:"Next-gen portfolio system", category:"PORTFOLIO SYSTEM", year:"2026",
+codeName:"pow2", cover:"blue",
+description:"An evolution of the POW template: stronger typography system, motion primitives, and content modeling.",
+link:"https://github.com/MichaelFX-1/Portfolio-Template-2", github:"https://github.com/MichaelFX-1/Portfolio-Template-2",
+tags:["HTML5","CSS3","TypeScript","Responsive UI"] },
+
 ];
 
 const skillCategories = [
-  { icon:"💻", title:"Frontend Engineering", skills:[ ["HTML5 (Semantic, SEO-ready)",95],["CSS3 (Flexbox, Grid, Animations)",92],["JavaScript (DOM, Logic, UI Behavior)",88],["Responsive UI Development",95],["Cross-browser Compatibility",88] ] },
-  { icon:"🧱", title:"Web Development Systems", skills:[ ["Mobile-first Architecture",92],["Component-based UI Structuring",88],["Landing Page Engineering",90],["Static Site Deployment",92],["Performance Optimization",85] ] },
-  { icon:"🛠️", title:"Tools & Platforms", skills:[ ["Git & GitHub",92],["Netlify",95],["VS Code",95],["Figma (UI Planning)",80],["GitHub Pages",88] ] },
-  { icon:"🤝", title:"Soft Skills", skills:[ ["Problem Solving",92],["Product Thinking",88],["Independent & Self-driven",95],["Rapid Learning & Prototyping",90],["Communication",88] ] },
+  {
+    title: "Core Frontend",
+    icon: "⚡",
+    skills: [
+      ["HTML5 (Semantic, SEO-ready)", 95],
+      ["CSS3 (Responsive, Flexbox, Grid)", 94],
+      ["JavaScript ES6+", 92],
+      ["TypeScript", 82],
+      ["React", 82],
+      ["DOM APIs & Interaction", 88]
+    ]
+  },
+  
+  {
+    title: "UI & Application Development",
+    icon: "🎨",
+    skills: [
+      ["Responsive UI Development", 94],
+      ["Component-Based UI", 88],
+      ["Tailwind CSS", 84],
+      ["CSS Grid & Flexbox", 94],
+      ["Accessibility", 82],
+      ["Figma / UI Implementation", 84]
+    ]
+  },
+  
+  {
+    title: "Engineering & Workflow",
+    icon: "🛠️",
+    skills: [
+      ["REST API Integration", 82],
+      ["State Management", 78],
+      ["Git & GitHub", 90],
+      ["Chrome DevTools", 88],
+      ["Frontend Debugging", 90],
+      ["Frontend Testing", 75]
+    ]
+  },
+  
+  {
+    title: "Deployment & Web Workflow",
+    icon: "🚀",
+    skills: [
+      ["Netlify Deployment", 90],
+      ["Cross-Browser Compatibility", 88],
+      ["Performance Optimization", 78],
+      ["Semantic Web Development", 92],
+      ["Responsive Design", 94],
+      ["Modern Development Workflow", 85]
+    ]
+  }
 ];
 
-const devTools = [["HTML5","🌐"],["CSS3","🎨"],["JavaScript","🟨"],["Responsive","📱"],["Flexbox","🧩"],["CSS Grid","▦"],["Animations","✨"]];
-const platformTools = [["Git","📦"],["GitHub","🐙"],["VS Code","💻"],["Netlify","🚀"],["GitHub Pages","📄"],["Figma","🖌️"],["Chrome DevTools","🔧"]];
+const devTools = [
+  ["HTML5", "🌐"],
+  ["CSS3", "🎨"],
+  ["JavaScript", "🟨"],
+  ["TypeScript", "🔷"],
+  ["React", "⚛️"],
+  ["DOM APIs", "🌳"],
+  ["Responsive UI", "📱"],
+  ["Flexbox", "🧩"],
+  ["CSS Grid", "▦"],
+  ["Tailwind CSS", "🌬️"],
+  ["REST APIs", "🔌"],
+  ["Accessibility", "♿"]
+];
+
+const platformTools = [
+  ["Git", "🔧"],
+  ["GitHub", "🐙"],
+  ["VS Code", "💻"],
+  ["Chrome DevTools", "🔍"],
+  ["Figma", "🎨"],
+  ["Netlify", "🚀"],
+  ["Frontend Testing", "🧪"],
+  ["API Tools", "🔌"]
+];
 
 /* Orbit + bar visualization data (NEW — complements the existing tool grids) */
 const ecosystem = [
@@ -79,26 +158,57 @@ const services = [
 /* Experience now uses the same project-card template (cover + code snippet)
    so the "Companies I'm working with" section visually matches the brief. */
 const experience = [
-  { title:"Kulvix", subtitle:"Web development & tech services", category:"COMPANY · ACTIVE", year:"2024–2026",
-    codeName:"kulvix", cover:"dark",
-    description:"Contributing to web development projects, client systems, and UI implementations.",
-    tags:["Frontend","UI","Services"],
-    link:"https://www.linkedin.com/company/kulvix/", github:"https://x.com/kulvix" },
-  { title:"Deliver-Now", subtitle:"Logistics intelligence platform", category:"COMPANY · ACTIVE", year:"2025–2026",
-    codeName:"deliver", cover:"blue",
-    description:"Contributing to route tracking systems across Africa — building operational efficiency tooling.",
-    tags:["Frontend","Logistics","Africa"],
-    link:"https://www.linkedin.com/in/jospin-uwaci-38860b98", github:"https://www.linkedin.com/in/jospin-uwaci-38860b98" },
-  { title:"POW (Proof of Work)", subtitle:"Portfolio infrastructure platform", category:"COMPANY · ACTIVE", year:"2025–2026",
-    codeName:"pow", cover:"amber",
-    description:"Supporting the portfolio template ecosystem — scalable systems for developer and creative portfolios.",
-    tags:["Templates","Infrastructure"],
-    link:"https://x.com/mypowapp", github:"https://x.com/mypowapp" },
-  { title:"PercorsoTech", subtitle:"Tech academy & services", category:"COMPANY · ENGAGED", year:"2024–2026",
-    codeName:"percorso", cover:"dark",
-    description:"Engaged with structured tech education and real-world web projects.",
-    tags:["Web","Education"],
-    link:"https://percorsotech.com/", github:"https://www.linkedin.com/company/percorsotech/" },
+  {
+    title: "Kulvix",
+    subtitle: "Frontend Developer & Instructor (Intern)",
+    category: "COMPANY · ACTIVE",
+    year: "Jan 2026–Present",
+    codeName: "kulvix",
+    cover: "dark",
+    description: "Contributing to frontend development projects, client systems, UI implementations, and practical technology education.",
+    tags: ["Frontend", "UI", "Development"],
+    link: "https://www.linkedin.com/company/kulvix/",
+    github: "https://x.com/kulvix"
+  },
+  
+  {
+    title: "Deliver-Now",
+    subtitle: "Frontend Developer / Web Developer",
+    category: "PROJECT · COMPLETED",
+    year: "May 2026",
+    codeName: "deliver",
+    cover: "blue",
+    description: "Contributing to frontend web development for a logistics-focused platform, building responsive interfaces and user-focused operational experiences.",
+    tags: ["Frontend", "Logistics", "Web Development"],
+    link: "https://www.linkedin.com/in/jospin-uwaci-38860b98",
+    github: "https://www.linkedin.com/in/jospin-uwaci-38860b98"
+  },
+  
+  {
+    title: "POW (Proof of Work)",
+    subtitle: "Frontend Developer / Web Developer",
+    category: "PROJECT · COMPLETED",
+    year: "Mar 2026",
+    codeName: "pow",
+    cover: "amber",
+    description: "Contributing to frontend development and portfolio infrastructure, focusing on responsive interfaces, reusable UI structures, and polished portfolio experiences.",
+    tags: ["Frontend", "Portfolio", "UI"],
+    link: "https://x.com/mypowapp",
+    github: "https://x.com/mypowapp"
+  },
+  
+  {
+    title: "PercorsoTech",
+    subtitle: "Frontend Development Intern / Learner",
+    category: "TRAINING · COMPLETED",
+    year: "Sep 2025–Nov 2025",
+    codeName: "percorso",
+    cover: "dark",
+    description: "Engaged in structured frontend development learning, practical web projects, and real-world technology workflows.",
+    tags: ["Frontend", "Web", "Education"],
+    link: "https://percorsotech.com/",
+    github: "https://www.linkedin.com/company/percorsotech/"
+  }
 ];
 
 const downloads = [

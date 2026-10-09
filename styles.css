@@ -84,7 +84,7 @@ em { font-style: italic; }
 .badge-accent { background: var(--accent); color: var(--accent-fg); }
 
 .btn-primary, .btn-outline, .btn-accent, .btn-dark, .link-accent {
-  display: inline-flex; align-items: center; gap: .5rem; padding: .85rem 1.6rem;
+  display: inline-flex; align-items: center; gap: .5rem; padding: .9rem 1.6rem;
   border-radius: 999px; font-weight: 500; cursor: pointer; border: 0; font-family: var(--font-body);
   transition: transform .2s, box-shadow .2s, background .2s, color .2s, gap .2s;
 }

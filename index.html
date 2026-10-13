@@ -17,7 +17,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css" />
+<link rel="stylesheet" href="styles.css"/>
 <script type="application/ld+json">
 {
   "@context":"https://schema.org",
@@ -58,15 +58,20 @@
   <div class="shape shape-1"></div>
   <div class="shape shape-2"></div>
   <div class="container grid-2 reveal">
-    <div class="about-img-wrap">
-      <div class="floating-card profile-frame">
-        <span class="badge badge-primary profile-badge">Profile</span>
-        <img src="/chinedu-michael-portfolio/assets/profile-photo.jpg" alt="Chinedu Michael — Web Developer" />
-      </div>
-      <div class="floating-card web3-badge">
-        <span class="big">&lt;/&gt;</span><br/><small>Web Developer</small>
-      </div>
+   <div class="hero-visual">
+  <div class="profile-stage">
+    <!-- Scrolling horizontal scan line -->
+    <div class="scan-line"></div>
+    <div class="profile-glow"></div>
+    <div class="floating-card profile-frame">
+      <span class="badge badge-accent profile-badge">Profile</span>
+      <img src="/chinedu-michael-portfolio/assets/profile-photo.jpg" alt="Chinedu Michael — Web Developer">
     </div>
+    <div class="floating-card web3-badge"><span class="big">&lt;/&gt;</span><small>Frontend / UI</small></div>
+    <div class="floating-card code-float"><span>const</span> interface = <strong>build()</strong></div>
+  </div>
+</div>
+
 <div>
       <span class="badge badge-accent">Professional Summary</span>
       <h1 class="display">I'm <em class="grad">Chinedu Michael</em></h1>
@@ -78,7 +83,7 @@
      
       </p>
       
-            <a href="#work" class="btn-primary">View My Work →</a>
+            <a href="#work" class="btn-primary">View My Selected Work →</a>
       <div class="highlights">
         <a href="#work" class="hl"><span class="hl-ico">8+</span> Projects Completed</a>
         <div class="hl"><span class="hl-ico">8</span> Live Websites Deployed</div>
@@ -126,6 +131,76 @@
 </section>
 
 <!-- SKILLS -->
+
+<!-- Project Case Studies section: insert where you want this section to appear. -->
+<section id="case-studies" class="cm-case-studies">
+  <div class="cm-case-container">
+    <header class="cm-case-heading">
+      <span class="cm-case-badge">02 / Project Case Studies</span>
+      <h2>Use case → implementation → <em>evidence.</em></h2>
+      <p>The strongest projects go beyond a card. Expand a case study to see the problem context, role, implementation focus, challenges and documented result.</p>
+    </header>
+    <div class="cm-case-list" id="cmCaseStudies"></div>
+  </div>
+</section>
+<!-- Load project-case-studies.css and project-case-studies.js after this markup. -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="about" class="section about">
+  <div class="container about-grid">
+    <div class="about-sticky reveal">
+      <span class="badge badge-accent">03 / About</span>
+      <h2 class="display">A frontend practice built around <em class="grad">real interfaces.</em></h2>
+      <div class="about-signature">&lt;Chinedu /&gt;</div>
+    </div>
+    <div class="about-body reveal">
+      <p class="about-lead">I’m Chinedu Michael, a frontend developer and web developer building responsive, interactive digital experiences.</p>
+      <p>I work primarily across HTML5, CSS3 and JavaScript, with hands-on project work involving TypeScript and React. My portfolio is deliberately project-led: the goal is to show how interfaces behave, how application logic is structured and what can actually be demonstrated in a live browser.</p>
+      <p>My work includes e-commerce storefronts, portfolio systems, business/service websites and browser applications. Across those projects I have worked with responsive layouts, DOM interaction, browser storage, filtering, stateful UI, theme controls, forms, deployment and frontend debugging.</p>
+      <p>I also have professional exposure through Kulvix, POW and Deliver-Now, alongside structured frontend training at PercorsoTech. My current direction is toward stronger frontend engineering, product/interface thinking and increasingly robust application development.</p>
+      <div class="about-facts">
+        <div><strong>Focus</strong><span>Frontend / Web Development</span></div>
+        <div><strong>Core</strong><span>HTML · CSS · JavaScript</span></div>
+        <div><strong>Current direction</strong><span>React · TypeScript · modern UI systems</span></div>
+        <div><strong>Location</strong><span>Nigeria</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="evidence" class="section evidence gradient-bg">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="badge badge-primary">04 / Frontend Evidence</span>
+      <h2 class="display">Technical practice behind <em class="grad">the projects.</em></h2>
+      <p class="muted lead">The skills below are tied to work documented in the portfolio and project material rather than artificial proficiency scores.</p>
+    </div>
+    <div class="evidence-grid">
+      <article class="evidence-card floating-card reveal"><span class="evidence-no">01</span><h3>Responsive UI</h3><p>CSS Grid, Flexbox, fluid spacing and breakpoint-aware navigation across retail, business and portfolio interfaces.</p><div class="tags"><span class="tag">CSS Grid</span><span class="tag">Flexbox</span><span class="tag">Responsive CSS</span></div></article>
+      <article class="evidence-card floating-card reveal"><span class="evidence-no">02</span><h3>JavaScript application logic</h3><p>Event handling, DOM rendering, quiz state, filtering, shopping-bag state, calculations and browser persistence.</p><div class="tags"><span class="tag">ES6+</span><span class="tag">DOM</span><span class="tag">localStorage</span></div></article>
+      <article class="evidence-card floating-card reveal"><span class="evidence-no">03</span><h3>Interface systems</h3><p>Reusable presentation patterns, theme controls, structured project data and consistent UI sections across portfolio systems.</p><div class="tags"><span class="tag">UI systems</span><span class="tag">Themes</span><span class="tag">Data models</span></div></article>
+      <article class="evidence-card floating-card reveal"><span class="evidence-no">04</span><h3>Deployment & debugging</h3><p>Git/GitHub workflows, Netlify deployment, browser debugging and cross-screen verification are part of the documented workflow.</p><div class="tags"><span class="tag">Git</span><span class="tag">GitHub</span><span class="tag">Netlify</span></div></article>
+    </div>
+    <div class="stack-panel floating-card reveal">
+      <div class="stack-copy"><span class="eyebrow">TECH STACK</span><h3>Tools I work with across the portfolio.</h3><p class="muted">Grouped by role.</p></div>
+      <div class="stack-cloud" id="stackCloud"></div>
+    </div>
+  </div>
+</section>
 <section id="skills" class="section skills gradient-bg">
   <div class="container">
     <div class="section-head center reveal">

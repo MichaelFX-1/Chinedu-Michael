@@ -54,6 +54,8 @@ tags:["HTML5","CSS3","TypeScript","Responsive UI"] },
 
 ];
 
+
+
 const skillCategories = [
   {
     title: "Core Frontend",
@@ -250,6 +252,157 @@ const experience = [
   }
 ];
 
+
+
+
+
+
+
+
+
+
+
+
+/* Standalone case-study accordion. No libraries or framework required. */
+const caseStudies = [
+ {project:"POW — Portfolio Template 1",no:"01",summary:"Editable portfolio infrastructure",
+  blocks:[
+   ["USE CASE","A reusable portfolio template designed to let users present professional information and project work without building a portfolio from scratch."],
+   ["MY ROLE","Frontend implementation of the editable interface, responsive layouts and interaction system."],
+   ["KEY FEATURES","Inline portfolio editing; light / white / dark themes; accent colour customization; JSON import / export; localStorage persistence; 3D / parallax presentation."],
+   ["TECHNICAL FOCUS","Typed portfolio data, DOM-driven editing, browser persistence and reusable presentation patterns."],
+   ["CHALLENGE","Managing editable portfolio data and UI state without a backend while keeping the template easy to use."],
+   ["HOW I SOLVED IT","Used a structured portfolio data model, localStorage persistence and import/export workflows so users can edit, save and transfer portfolio data directly in the browser."],
+   ["RESULT / CURRENT STATE","A reusable, deployable portfolio system with a working editing and persistence workflow.",true],
+  ],links:["https://portfoliotemplate0.netlify.app/","https://github.com/MichaelFX-1/Portfolio-Template-1"]},
+ {project:"Lydia Luxury Apparel",no:"02",summary:"Luxury e-commerce interface",
+  blocks:[
+   ["USE CASE","A premium fashion-fabric storefront focused on product discovery, visual storytelling and direct customer enquiry."],
+   ["MY ROLE","Frontend implementation of the storefront, responsive layouts, product interactions and commerce-oriented UI."],
+   ["KEY FEATURES","Product catalogue and detail views; shopping-bag state; theme switching; WhatsApp ordering; interactive motion and 3D presentation; responsive mobile navigation."],
+   ["TECHNICAL FOCUS","DOM-driven rendering, browser state, responsive UI, animation and customer-facing commerce interactions."],
+   ["CHALLENGE","Combining a visually rich luxury presentation with functional product and shopping interactions across screen sizes."],
+   ["HOW I SOLVED IT","Separated product data from rendering logic, managed cart state in JavaScript, persisted theme state with localStorage and used responsive CSS plus browser interaction APIs."],
+   ["RESULT / CURRENT STATE","A deployed storefront demonstrating commerce-oriented interface and browser interaction work.",true],
+  ],links:["https://lydiaapparel.netlify.app/","https://github.com/MichaelFX-1/Lydia-Apparel"]},
+ {project:"Chinedu Quiz Game",no:"03",summary:"Interactive JavaScript application",
+  blocks:[
+   ["USE CASE","A browser quiz application that manages questions, timing, user responses and scoring."],
+   ["MY ROLE","Frontend implementation of the quiz interface and application logic."],
+   ["KEY FEATURES","Timed quiz flow; shuffled questions; previous / next navigation; answer state tracking; score calculation and feedback; saved progress / auto-resume."],
+   ["TECHNICAL FOCUS","JavaScript state management, event handling, DOM rendering and localStorage persistence."],
+   ["CHALLENGE","Keeping the timer, selected answers, question navigation and final score synchronized."],
+   ["HOW I SOLVED IT","Centralized quiz state, persisted active state in localStorage and re-rendered the question interface from the current state."],
+   ["RESULT / CURRENT STATE","A deployed browser application demonstrating stateful JavaScript interaction.",true],
+  ],links:["https://chineduquizgame.netlify.app/","https://github.com/MichaelFX-1/Quiz-Game"]},
+ {project:"Chinedu Michael Portfolio",no:"04",summary:"Professional identity website",
+  blocks:[
+   ["USE CASE","A central recruiter-facing platform for presenting development work, technical skills, experience and contact information."],
+   ["MY ROLE","Frontend implementation of the portfolio application, responsive layouts, project presentation and interaction."],
+   ["KEY FEATURES","Project showcase architecture; responsive navigation; experience and skills presentation; contact flow; animated UI interactions; Netlify deployment."],
+   ["TECHNICAL FOCUS","Component-based frontend development, responsive UI, recruiter-focused information architecture and modern frontend tooling."],
+   ["CHALLENGE","Presenting projects and professional information clearly while keeping the site focused on frontend evidence."],
+   ["HOW I SOLVED IT","Structured the site around work, skills, experience and contact, using reusable UI sections and responsive layout patterns."],
+   ["RESULT / CURRENT STATE","The live professional portfolio, expanded in this edition with deeper project and experience structure.",true],
+  ],links:["https://chinedumichael.netlify.app/","https://github.com/MichaelFX-1/Chinedu-Michael-Portfolio"]},
+ {project:"Yhudee Collection",no:"05",summary:"Luxury retail storefront",
+  blocks:[
+   ["USE CASE","A luxury e-commerce experience for timepieces, jewellery and accessories, designed around a long-form digital showroom."],
+   ["MY ROLE","Frontend implementation of the storefront, catalogue interactions, shopping-bag behaviour and responsive presentation."],
+   ["KEY FEATURES","47-product catalogue; search and category filtering; sorting by price and name; persistent shopping bag; pricing and gift-wrap calculations; WhatsApp / email checkout; dark / light theme persistence."],
+   ["TECHNICAL FOCUS","JavaScript state management, dynamic rendering, localStorage, responsive CSS, browser APIs and commerce logic."],
+   ["CHALLENGE","Delivering a complete front-end shopping journey without introducing a framework or backend."],
+   ["HOW I SOLVED IT","Separated product data, application state and UI rendering; used localStorage for persistence and generated customer-ready WhatsApp/email order messages."],
+   ["RESULT / CURRENT STATE","A deployed static commerce prototype demonstrating practical UI engineering and product-oriented frontend logic.",true],
+  ],links:["https://yhudeecollection.netlify.app/","https://github.com/MichaelFX-1/Yhudee-Empire"]},
+ {project:"Sage Arts",no:"06",summary:"Business services platform",
+  blocks:[
+   ["USE CASE","A commercial service website presenting signage, portraits, branding, printing and merchandise services with a clear path to enquiry."],
+   ["MY ROLE","Frontend implementation of service presentation, portfolio interactions, responsive navigation and contact experience."],
+   ["KEY FEATURES","Service catalogue; portfolio filtering; five-step process section; quote/contact form; theme switching; responsive interactions and reveal animations."],
+   ["TECHNICAL FOCUS","Information architecture, dynamic rendering, responsive layout, interaction states and enquiry-oriented UX."],
+   ["CHALLENGE","Communicating many creative services without making the site difficult to scan."],
+   ["HOW I SOLVED IT","Grouped services and portfolio work into clear sections, used filtering and progressive reveal interactions, and provided direct quote/contact actions."],
+   ["RESULT / CURRENT STATE","A deployed service website demonstrating content hierarchy and enquiry-focused interface design.",true],
+  ],links:["https://sageartcollection.netlify.app/","https://github.com/MichaelFX-1/Sage-Arts"]},
+ {project:"Kulvix Project",no:"07",summary:"Corporate / portfolio web template",
+  blocks:[
+   ["USE CASE","A responsive professional template focused on structured presentation of projects, profile information and contact options."],
+   ["MY ROLE","Frontend implementation of the page structure, responsive layout and visual presentation."],
+   ["KEY FEATURES","Responsive hero section; project showcase; about and profile sections; contact flow; mobile-friendly navigation."],
+   ["TECHNICAL FOCUS","Semantic HTML structure, CSS layout, responsive presentation and information hierarchy."],
+   ["CHALLENGE","Creating a clean, professional interface from a simple template structure while keeping content easy to scan."],
+   ["HOW I SOLVED IT","Used structured sections, responsive CSS and clear navigation patterns to separate identity, work and contact content."],
+   ["RESULT / CURRENT STATE","A deployed business/portfolio template demonstrating responsive layout and content structure.",true],
+  ],links:["https://kulvixproject.netlify.app/","https://github.com/MichaelFX-1/Project"]},
+ {project:"POW — Portfolio Template 2",no:"08",summary:"Portfolio system iteration",
+  blocks:[
+   ["USE CASE","A second POW template iteration exploring a more playful, editable portfolio experience."],
+   ["MY ROLE","Frontend implementation of the typed data layer, interface behaviour and presentation system."],
+   ["KEY FEATURES","Typed portfolio data model; editable content structure; theme controls; import / export workflow; 3D scene and motion effects; zero-build browser runtime."],
+   ["TECHNICAL FOCUS","TypeScript data modelling, DOM-driven runtime behaviour and reusable portfolio presentation."],
+   ["CHALLENGE","Keeping the second template consistent and editable while supporting richer visual interactions."],
+   ["HOW I SOLVED IT","Defined a typed PortfolioData model, compiled TypeScript to browser-ready JavaScript and kept the runtime dependency-light."],
+   ["RESULT / CURRENT STATE","GitHub source is available; no separate live deployment was provided in the supplied portfolio material.",true],
+  ],links:["https://github.com/MichaelFX-1/Portfolio-Template-2"]}
+];
+
+const cmEscape = value => String(value).replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
+function cmCaseCard(item,index){
+  const blocks=item.blocks.map(block=>`<div class="cm-case-block ${block[2]?'is-full':''}"><h4>${cmEscape(block[0])}</h4><p>${cmEscape(block[1])}</p></div>`).join('');
+  const links=item.links.map((url,j)=>`<a class="cm-case-link ${j===0&&item.links.length>1?'is-primary':''}" href="${cmEscape(url)}" target="_blank" rel="noopener noreferrer">${j===0&&item.links.length>1?'Live project ↗':'GitHub ↗'}</a>`).join('');
+  const isOpen=index===0;
+  return `<article class="cm-case-item ${isOpen?'is-open':''}">
+    <button class="cm-case-trigger" type="button" aria-expanded="${isOpen}" aria-controls="cm-case-panel-${index}">
+      <span class="cm-case-no">${cmEscape(item.no)}</span><span><span class="cm-case-title">${cmEscape(item.project)}</span><span class="cm-case-summary">${cmEscape(item.summary)}</span></span><span class="cm-case-plus" aria-hidden="true">+</span>
+    </button>
+    <div class="cm-case-panel" id="cm-case-panel-${index}"><div class="cm-case-panel-inner"><div class="cm-case-content">${blocks}</div><div class="cm-case-links">${links}</div></div></div>
+  </article>`;
+}
+const cmRoot=document.getElementById('cmCaseStudies');
+if(cmRoot){
+  cmRoot.innerHTML=caseStudies.map(cmCaseCard).join('');
+  cmRoot.addEventListener('click',event=>{
+    const button=event.target.closest('.cm-case-trigger');
+    if(!button)return;
+    const item=button.closest('.cm-case-item');
+    const willOpen=!item.classList.contains('is-open');
+    /* Accordion behavior: keep only one case study expanded at a time. */
+    cmRoot.querySelectorAll('.cm-case-item').forEach(row=>{
+      row.classList.remove('is-open');
+      row.querySelector('.cm-case-trigger').setAttribute('aria-expanded','false');
+    });
+    if(willOpen){item.classList.add('is-open');button.setAttribute('aria-expanded','true');}
+  });
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 const downloads = [
   { title:"Frontend Developer Portfolio", description:"Full portfolio document showcasing projects, deployed websites, and technical work samples.", icon:"📁", file:"/chinedu-michael-portfolio/downloads/Chinedu Michael Portfolio.pdf", color:"hsl(210 70% 55% / .1)", border:"hsl(210 70% 55% / .3)" },
   { title:"Frontend Developer CV", description:"HTML, CSS, JavaScript and responsive web development experience at a glance.", icon:"💻", file:"/chinedu-michael-portfolio/downloads/Chinedu Michael C.V (1).pdf" , color:"hsl(45 90% 60% / .2)", border:"hsl(45 90% 60% / .4)" },
@@ -398,3 +551,10 @@ document.getElementById("contactForm").addEventListener("submit", e => {
   const body = encodeURIComponent(`Hi Chinedu,\n\nMy name is ${f.get("name")}.\n\n${f.get("message")}\n\nBest regards,\n${f.get("name")}`);
   window.location.href = `mailto:chinedumichael.dev@gmail.com?subject=${subject}&body=${body}`;
 });
+
+
+
+const stack = ["HTML5", "CSS3", "JavaScript ES6+", "TypeScript", "React", "Tailwind CSS", "CSS Grid", "Flexbox", "DOM APIs", "localStorage", "REST APIs", "Git", "GitHub", "Chrome DevTools", "VS Code", "Figma", "Netlify"];
+
+// Dynamically populates the tech stack items inside the evidence section's stack cloud panel
+document.getElementById("stackCloud").innerHTML = stack.map(x => `<span class="stack-item">${esc(x)}</span>`).join("");

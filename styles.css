@@ -858,6 +858,14 @@ em { font-style: italic; }
   color: var(--cm-fg);
   cursor: pointer;
 }
+/* ============================================================
+   FIX: CASE STUDY TITLE & SUMMARY STACKING
+   ============================================================ */
+.cm-case-title-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
 
 .cm-case-no { font-family: var(--font-display); font-size: 1.75rem; color: var(--cm-primary); }
 .cm-case-title { font-family: var(--font-display); font-size: 1.55rem; font-weight: 400; line-height: 1.2; margin: 0; color: var(--cm-fg); }

@@ -348,17 +348,26 @@ const caseStudies = [
 ];
 
 const cmEscape = value => String(value).replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
+// function cmCaseCard(item,index){
+
+
 function cmCaseCard(item,index){
-  const blocks=item.blocks.map(block=>`<div class="cm-case-block ${block[2]?'is-full':''}"><h4>${cmEscape(block[0])}</h4><p>${cmEscape(block[1])}</p></div>`).join('');
-  const links=item.links.map((url,j)=>`<a class="cm-case-link ${j===0&&item.links.length>1?'is-primary':''}" href="${cmEscape(url)}" target="_blank" rel="noopener noreferrer">${j===0&&item.links.length>1?'Live project ↗':'GitHub ↗'}</a>`).join('');
-  const isOpen=index===0;
-  return `<article class="cm-case-item ${isOpen?'is-open':''}">
-    <button class="cm-case-trigger" type="button" aria-expanded="${isOpen}" aria-controls="cm-case-panel-${index}">
-      <span class="cm-case-no">${cmEscape(item.no)}</span><span><span class="cm-case-title">${cmEscape(item.project)}</span><span class="cm-case-summary">${cmEscape(item.summary)}</span></span><span class="cm-case-plus" aria-hidden="true">+</span>
-    </button>
-    <div class="cm-case-panel" id="cm-case-panel-${index}"><div class="cm-case-panel-inner"><div class="cm-case-content">${blocks}</div><div class="cm-case-links">${links}</div></div></div>
-  </article>`;
+   const blocks=item.blocks.map(block=>`<div class="cm-case-block ${block[2]?'is-full':''}"><h4>${cmEscape(block[0])}</h4><p>${cmEscape(block[1])}</p></div>`).join('');
+   const links=item.links.map((url,j)=>`<a class="cm-case-link ${j===0&&item.links.length>1?'is-primary':''}" href="${cmEscape(url)}" target="_blank" rel="noopener noreferrer">${j===0&&item.links.length>1?'Live project  ':'GitHub  '}</a>`).join('');
+   const isOpen=index===0;
+   return `<article class="cm-case-item ${isOpen?'is-open':''}">
+     <button class="cm-case-trigger" type="button" aria-expanded="${isOpen}" aria-controls="cm-case-panel-${index}">
+       <span class="cm-case-no">${cmEscape(item.no)}</span>
+       <div class="cm-case-title-wrap">
+         <span class="cm-case-title">${cmEscape(item.project)}</span>
+         <span class="cm-case-summary">${cmEscape(item.summary)}</span>
+       </div>
+       <span class="cm-case-plus" aria-hidden="true">+</span>
+     </button>
+     <div class="cm-case-panel" id="cm-case-panel-${index}"><div class="cm-case-panel-inner"><div class="cm-case-content">${blocks}</div><div class="cm-case-links">${links}</div></div></div>
+   </article>`;
 }
+
 const cmRoot=document.getElementById('cmCaseStudies');
 if(cmRoot){
   cmRoot.innerHTML=caseStudies.map(cmCaseCard).join('');

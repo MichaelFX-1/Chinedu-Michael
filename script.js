@@ -421,7 +421,7 @@ const strengths = [
 const esc = s => String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 
 /* New "browser window" cover used by both projects and experience cards.
-   Matches the template: traffic-light dots, code snippet, big title + subtitle. */
+  Matches the template: traffic-light dots, code snippet, big title + subtitle. */
 function coverBlock(p) {
   return `<div class="pc-cover pc-cover--${p.cover}">
     <div class="pc-dots"><span></span><span></span><span></span></div>
@@ -436,6 +436,10 @@ function coverBlock(p) {
     </div>
   </div>`;
 }
+
+
+
+
 
 function projCard(p, opts = {}) {
   const featured = opts.featured ? " proj-card--featured" : "";
